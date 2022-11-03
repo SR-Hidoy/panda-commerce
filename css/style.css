@@ -1,12 +1,14 @@
 .container{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .orange-bg{
     background-color: #fceae8;
     border-radius: 20px;
+
 }
 .carousel-item{
     padding: 20px 40px;
+    box-shadow: 5px 5px 10px lightgray;
 }
 
 .price{
@@ -20,4 +22,45 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.cat1{
+    background-color: #e98502;
+    
+}
+
+.cat2{
+    background-color: #FF589B;
+}
+
+.cat3{
+    background-color: #045891;
+}
+
+.categories h1{
+    color: white;
+}
+
+.categories img{
+    width: 100px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 15px;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+    border-radius: 15px;
+}
+.subscribe{
+    height: 300px;
 }
